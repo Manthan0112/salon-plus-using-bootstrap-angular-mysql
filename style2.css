@@ -1,0 +1,309 @@
+
+body
+{
+	padding: 0px;
+}
+
+.form-inline
+{
+	float: right;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.search
+{
+	width: 200px;
+	height: 32px;
+	border-radius: 5px;
+	border: solid rgba(59,147,225,0.5);
+	padding: 6px;
+	margin-right: 0px;
+}
+
+.search:focus
+{
+	outline: none;
+}
+
+.search-container button
+{
+	 padding: 6px 10px;
+	 margin-top: 8px;
+	 margin-right: 16px;
+	 background: rgba(59,147,225,0.5);
+	 font-size: 17px;
+	 border: none;
+	 cursor: pointer;
+	 border-radius: 20px;
+}
+
+.search-container button:focus
+{
+	outline: none;
+	
+}
+
+#myNavbar a
+{
+	color: rgb(59,147,225);
+}
+
+#myNavbar a:hover
+{
+	color: rgb(30,110,190);
+	background-color: rgba(200,200,200,0.5);
+}
+
+#Nav li
+{
+	margin-top: 0px;
+	margin-left: 20px;
+	color: rgba(59,147,225,0.5);
+}
+
+#Nav
+{
+	background-color: white;
+	border: none;
+  	padding: 10px;
+ 	box-shadow: -10px 10px 15px -20px rgba(0,0,0,0.75);
+}
+
+#Nav button
+{
+	background-color: rgb(59,147,225);
+	border: none;
+}
+
+.btn:hover
+{
+	background-color: rgba(20,225,150);
+}
+
+.h1_tag
+{
+	padding-left:  0px;
+	color: rgb(59,147,225);
+}
+
+.navbar
+{
+	margin: 0px 0px 0px 0px;
+}
+
+.nav2 a
+{
+	font-size: 20px;
+	color: rgb(59,147,225);
+	margin-left: -10px;
+	margin-right: 70px;
+}
+
+.nav2_div
+{
+	  border: 1px solid;
+  	  padding: 10px;
+ 	  box-shadow: -10px 10px 15px -10px rgba(0,0,0,0.75);
+}
+
+.nav2 a:hover
+{
+	color: rgb(59,200,225);
+}
+
+
+.man
+{
+	padding: 20px 20px 20px 10px;
+	position: sticky;
+}
+
+.man input[type=date]
+{
+	border-radius: 5px;
+	border: 1px rgb(59,200,225) solid;
+	width: 200px;
+	height: 30px;
+}
+
+.ddbtn
+{
+	background-color: rgb(70,147,225);
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	align-items: left;
+	height: 30px;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.dropdown-menu
+{
+	width: 200px;
+}
+.ddbtn:hover
+{
+	background-color: rgb(40,117,195);
+}
+
+.checked
+{
+	color: rgba(245,171,53, 0.7);
+
+}
+
+label
+{
+	color: rgb(70,147,225);
+}
+
+.carousel-div
+{
+	margin-top: 50px;
+}
+
+
+/*css of right division*/
+.dropdown
+{
+	position: fixed;
+}
+.right_div
+{
+	height: 775px ; 
+	overflow-y: scroll;
+}
+
+.bb3
+{
+  border:none;
+  border-bottom: 1px solid rgb(220,220,220)  ;
+  padding-left: 0px;
+  /*border-bottom: 1px solid black; */
+}
+
+.bb
+{
+  border:none;
+  border-bottom: 1px solid rgb(220,220,220)  ;
+  padding-left: 0px;
+  height: 40px;
+  /*border-bottom: 1px solid black; */
+}
+
+.bb2
+{
+  padding-left: 0px;
+}
+.iimmgg img
+{
+  width: 250px;
+  margin-top: 25px;
+
+  /*background-image: url("img3.jpg");*/
+
+}
+.iimmgg2
+{
+  position: fixed;
+}
+
+@media only screen and (max-width: 992px)
+{
+	
+	.form-inline
+	{
+		float: left;
+		margin-left: 70px;
+	}
+
+	.bb
+	{
+		height: 70px;
+	}
+
+	.mistake
+	{
+		display: inline;
+		margin: auto;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	.bb input[type=button]
+	{
+		width:50px;
+	}
+
+	.bb2
+	{
+		text-align: center;
+	}
+
+	.iimmgg img
+	{
+		background-repeat: no-repeat;
+		max-width: 400px;
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 992px)
+{
+	
+	.form-inline
+	{
+		float: left;
+		margin-left: 70px;
+	}
+
+	.bb
+	{
+		height: 70px;
+	}
+
+	.mistake
+	{
+		display: inline;
+		margin: auto;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	.bb input[type=button]
+	{
+		width:50px;
+	}
+
+	.bb2
+	{
+		text-align: center;
+	}
+
+	.iimmgg img
+	{
+		background-repeat: no-repeat;
+		width: 400px;
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+}
+
+
+@media only screen and (min-width: 992px)
+{
+	.bb
+	{
+		height: 40px;
+	}
+}
